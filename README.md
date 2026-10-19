@@ -1,5 +1,7 @@
 # Claims Processor
 
+Repository: `gen-ai-project-week2`.
+
 A Replit-ready React UI and FastAPI backend for reviewing synthetic institutional claims.
 Upload a form, press Analyzer for OCR/schema generation, review source-linked fields, then save JSON.
 LangGraph coordinates review/indexing and questions; LangChain provides the RAG interfaces; Pinecone is optional connected storage.
