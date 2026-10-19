@@ -1,0 +1,12 @@
+{
+  "chunk_id": "semantic-1",
+  "field_ids": [
+    "8",
+    "9",
+    "10",
+    "11"
+  ],
+  "score": 0.1527830828380352,
+  "initial_rank": 5,
+  "rerank_score": 0.0015278308283803521
+}

@@ -1,0 +1,13 @@
+{
+  "id": "case-00-q0",
+  "case": 0,
+  "query": "What is the patient name?",
+  "gold": [
+    "8"
+  ],
+  "expected": {
+    "8": "Jordan Reed"
+  },
+  "split": "development",
+  "category": "identity"
+}

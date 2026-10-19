@@ -1,0 +1,72 @@
+{
+  "run_id": "20261019T035512311292",
+  "cold_start_seconds": 4.554611200001091,
+  "seed": 2026,
+  "chunk_tokens": 400,
+  "overlap_tokens": 60,
+  "candidates": 20,
+  "top_k": 5,
+  "namespace": "cms1450-demo",
+  "models": {
+    "embedding": "hash-word-384-v1",
+    "embedding_revision": "v1",
+    "reranker": "lexical",
+    "reranker_revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a"
+  },
+  "candidate_reuse": true,
+  "versions": {
+    "langgraph": "0.4.5",
+    "langchain-core": "0.3.59",
+    "langchain-pinecone": "0.2.6",
+    "tiktoken": "0.9.0",
+    "numpy": "2.2.5"
+  },
+  "claim_snapshots": [
+    {
+      "id": "d0da9e01a764436ca72ceddef2011a22",
+      "revision": 1,
+      "sha256": "be8999bd5b2846ac631fb2f661297aa15b78935f2f4341aa545916da2b4d7518"
+    },
+    {
+      "id": "d0c64306dba545b497c906b72c020950",
+      "revision": 1,
+      "sha256": "1dac8e2777a6891454e5a1f285ec8b8544b96eacffbd3eed4162ba8f5dda6ac3"
+    },
+    {
+      "id": "456b1af97c3d497297b7e5795a7a4bc1",
+      "revision": 1,
+      "sha256": "d191151ae639971234e7a906b25bc14ac4ba953a2dea1367bdb12fd863a58fbb"
+    },
+    {
+      "id": "51015abe5c344c318e48ef37133bed6a",
+      "revision": 1,
+      "sha256": "fdf77103cde8fd4095746b8c0754484260c7ebcc5cfe913851d66f0f7a373bc2"
+    },
+    {
+      "id": "070d3017744a4f069b54eefbe4b0dd6d",
+      "revision": 1,
+      "sha256": "0c9ff4fd0d43535e701d1cfeaf22767c7c2c08626b69f86171c2f979804f9538"
+    },
+    {
+      "id": "fc7b879429ab4204b26557a5bca58924",
+      "revision": 1,
+      "sha256": "2e78ccd8f1197156592cdf9032e5eef837a083eb7c2f60d5360f36df0dac8de1"
+    },
+    {
+      "id": "13dd8b2c86c94becb3130bfbfe74929d",
+      "revision": 1,
+      "sha256": "2d8522961ac0baf808b7822203c99ae5aa488412fafebfbb99d90df1321e943d"
+    },
+    {
+      "id": "28eb459971c343bc8b5539f00d1a7dca",
+      "revision": 1,
+      "sha256": "b9f2f5c913e0a333460ea18c0a9681656f70a49de702d91123acea8d5c2d3dd0"
+    },
+    {
+      "id": "d560620beb1046f4a137ba916769fb91",
+      "revision": 1,
+      "sha256": "4b6def273b27ce12de4f3b2b795db923bcdd8e55ad29b21ee3aa57a071dff104"
+    }
+  ],
+  "label_review": "template-authored, provisional"
+}

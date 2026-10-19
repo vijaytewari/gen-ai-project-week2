@@ -1,0 +1,16 @@
+{
+  "field_id": "17",
+  "label": "Discharge status",
+  "value": "01",
+  "group": "admission",
+  "evidence": {
+    "page": 0,
+    "box": [
+      0.4388235294117647,
+      0.13,
+      0.047058823529411764,
+      0.031818181818181815
+    ]
+  },
+  "source": "curated"
+}

@@ -1,0 +1,55 @@
+.library, .reports-page { padding: 37px 39px 24px; }
+.page-heading { display: flex; align-items: center; justify-content: space-between; margin: 15px 0 30px; }
+.page-heading h1 { margin-bottom: 11px; }
+.page-heading p { font-size: 12px; margin-bottom: 0; }
+.library-stats {
+  display: grid; grid-template-columns: repeat(3, 1fr); margin: 26px 0 40px;
+  border: 1px solid var(--border); border-radius: 9px; background: #fcfdfb;
+}
+.library-stats > div { display: flex; align-items: center; gap: 13px; padding: 21px; }
+.library-stats > div + div { border-left: 1px solid var(--border); }
+.stat-icon { display: grid; place-items: center; color: #7c9f8f; width: 36px; height: 36px; background: #edf3ee; border-radius: 8px; }
+.library-stats strong { font-size: 26px; font-weight: 450; letter-spacing: -.8px; }
+.library-stats > div > span:last-child { font-size: 11px; color: #5e7268; }
+.library-stats small { display: block; margin-top: 3px; font-size: 9px; color: #93a196; }
+.section-heading { display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; }
+.section-heading h2 { font-size: 17px; margin-bottom: 5px; }
+.section-heading h2 > span { margin-left: 6px; font-size: 10px; padding: 2px 6px; border-radius: 4px; background: #e8eeea; color: #7e9286; }
+.section-heading p { font-size: 11px; margin: 0; }
+.search { display: flex; align-items: center; border: 1px solid var(--border); border-radius: 6px; padding: 0 10px; color: #9baba2; background: white; }
+.search input { border: 0; padding: 9px 8px; width: 165px; font-size: 11px; outline: 0; }
+.sample-table { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; background: white; }
+.table-head, .sample-row { display: grid; grid-template-columns: 2fr 1.25fr 1fr 20px; gap: 15px; align-items: center; padding: 13px 22px; }
+.table-head { background: #f1f5f1; font-size: 8px; letter-spacing: 1.25px; color: #889a8e; }
+.sample-row { width: 100%; border: 0; border-radius: 0; text-align: left; border-top: 1px solid #edf1ed; padding-top: 17px; padding-bottom: 17px; }
+.sample-row:hover { background: #f7faf7; }
+.sample-row > svg { color: #b1bfb7; }
+.sample-name { display: flex; align-items: center; gap: 13px; }
+.file-icon { display: grid; place-items: center; color: #839b8c; background: #f1f5f0; border: 1px solid #e6ede5; width: 36px; height: 42px; border-radius: 5px; }
+.sample-name strong { font-size: 11px; font-weight: 550; color: #455d50; }
+.sample-name small { display: block; font-size: 10px; color: #94a297; margin-top: 4px; }
+.file-ext { color: #a0aca3; font-weight: 400; }
+.scenario { width: fit-content; padding: 4px 8px; border-radius: 4px; font-size: 9px; background: #eff3ec; color: #6a8663; }
+.scenario-1 { background: #f6f0e5; color: #a48a5f; }
+.scenario-2 { background: #eef0f8; color: #8491b0; }
+.scenario-3 { background: #f6f1eb; color: #a1907d; }
+.scenario-4 { background: #f0edf6; color: #9284a5; }
+.scenario-5 { background: #eaf3f3; color: #6e9596; }
+.simulated { font-size: 10px; color: #8c9f90; display: flex; align-items: center; gap: 6px; }
+.simulated > span { width: 4px; height: 4px; border-radius: 50%; background: #8eac92; }
+.library-footnote { display: flex; gap: 7px; justify-content: center; align-items: center; margin: 20px 0 0; font-size: 10px; color: #9ba99e; }
+.table-empty { padding: 30px; text-align: center; }
+@media (max-width: 1100px) {
+  .library-stats > div { padding: 18px 12px; gap: 8px; }
+  .library-stats small { display: none; } .stat-icon { width: 28px; }
+}
+@media (max-width: 800px) {
+  .library, .reports-page { padding: 26px 20px; }
+  .library-stats { grid-template-columns: 1fr; margin-bottom: 28px; }
+  .library-stats > div + div { border-left: 0; border-top: 1px solid var(--border); }
+  .library-stats small { display: block; }
+  .section-heading { align-items: start; gap: 15px; flex-direction: column; }
+  .table-head, .sample-row { grid-template-columns: 1.6fr 1fr 14px; padding: 13px 12px; gap: 6px; }
+  .simulated, .table-head > span:nth-child(3) { display: none; }
+  .library-footnote { align-items: start; font-size: 9px; }
+}

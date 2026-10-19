@@ -1,0 +1,16 @@
+{
+  "field_id": "6.from",
+  "label": "Statement period \u00b7 from",
+  "value": "2026-09-10",
+  "group": "admission",
+  "evidence": {
+    "page": 0,
+    "box": [
+      0.7352941176470589,
+      0.06818181818181818,
+      0.19411764705882353,
+      0.013636363636363636
+    ]
+  },
+  "source": "curated"
+}

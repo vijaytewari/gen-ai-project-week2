@@ -1,0 +1,5 @@
+{
+  "answer": "Diagnosis qualifier: 0 [FL 66]\nPrincipal / other diagnoses \u00b7 other1: DEMO-SECONDARY [FL 67.other1]\nPrincipal / other diagnoses \u00b7 principal: DEMO-DX [FL 67.principal]\nAdmitting diagnosis: DEMO-ADMIT [FL 69]",
+  "abstained": false,
+  "mode": "lookup"
+}

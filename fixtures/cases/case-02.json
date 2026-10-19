@@ -1,0 +1,13 @@
+{
+  "id": 2,
+  "name": "DEMO-0003",
+  "variant": "Rotated scan",
+  "patient": "Morgan Ellis",
+  "sha256": "93e8c7149e68c47d63a21e24133ac6568c4d5b19dad0af29899caf4447acd213",
+  "filename": "sample-2-93e8c7149e68c47d.pdf",
+  "field_count": 123,
+  "page_count": 1,
+  "coordinate_units": "normalized original page; rotation applied by viewer",
+  "extraction": "curated simulation",
+  "layout": "original synthetic, not for billing"
+}

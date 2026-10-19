@@ -1,0 +1,9 @@
+run = "bash scripts/replit.sh"
+entrypoint = "frontend/src/App.tsx"
+
+[nix]
+channel = "stable-24_05"
+
+[[ports]]
+localPort = 8000
+externalPort = 80

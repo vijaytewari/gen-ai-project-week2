@@ -1,0 +1,70 @@
+{
+  "run_id": "20261018T223339855865",
+  "backend": "local",
+  "embedding": "hash-word-384-v1",
+  "reranker": "lexical",
+  "query_count": 45,
+  "cases": 9,
+  "configs": [
+    {
+      "name": "fixed",
+      "strategy": "fixed",
+      "rerank": false,
+      "recall": 1.0,
+      "mrr": 0.9583333333333334,
+      "ndcg": 0.9692441461309548,
+      "recall_budget": 1.0,
+      "answer_accuracy": 0.9333333333333333,
+      "latency_ms": 5.7108666631393135,
+      "context_tokens": 1322.6666666666667,
+      "citation_support": 1,
+      "unsupported_rate": 0,
+      "abstention_accuracy": 1
+    },
+    {
+      "name": "fixed-rerank",
+      "strategy": "fixed",
+      "rerank": true,
+      "recall": 1.0,
+      "mrr": 1.0,
+      "ndcg": 1.0,
+      "recall_budget": 1.0,
+      "answer_accuracy": 0.9333333333333333,
+      "latency_ms": 4.297959999853952,
+      "context_tokens": 1322.6666666666667,
+      "citation_support": 1,
+      "unsupported_rate": 0,
+      "abstention_accuracy": 1
+    },
+    {
+      "name": "semantic",
+      "strategy": "semantic",
+      "rerank": false,
+      "recall": 1.0,
+      "mrr": 0.9027777777777778,
+      "ndcg": 0.9282363409722278,
+      "recall_budget": 1.0,
+      "answer_accuracy": 0.9333333333333333,
+      "latency_ms": 7.666308893304732,
+      "context_tokens": 726.8,
+      "citation_support": 1,
+      "unsupported_rate": 0,
+      "abstention_accuracy": 1
+    },
+    {
+      "name": "semantic-rerank",
+      "strategy": "semantic",
+      "rerank": true,
+      "recall": 1.0,
+      "mrr": 1.0,
+      "ndcg": 1.0,
+      "recall_budget": 1.0,
+      "answer_accuracy": 0.9333333333333333,
+      "latency_ms": 6.816411105036321,
+      "context_tokens": 695.6,
+      "citation_support": 1,
+      "unsupported_rate": 0,
+      "abstention_accuracy": 1
+    }
+  ]
+}

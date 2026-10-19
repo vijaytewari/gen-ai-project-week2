@@ -1,0 +1,16 @@
+{
+  "field_id": "50.A",
+  "label": "Payer \u00b7 Primary",
+  "value": "DEMO Primary Health",
+  "group": "coverage",
+  "evidence": {
+    "page": 0,
+    "box": [
+      0.023529411764705882,
+      0.5454545454545454,
+      0.27647058823529413,
+      0.02727272727272727
+    ]
+  },
+  "source": "curated"
+}

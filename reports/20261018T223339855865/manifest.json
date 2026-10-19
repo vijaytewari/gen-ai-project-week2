@@ -1,0 +1,69 @@
+{
+  "run_id": "20261018T223339855865",
+  "cold_start_seconds": 4.200990699988324,
+  "seed": 2026,
+  "chunk_tokens": 400,
+  "overlap_tokens": 60,
+  "candidates": 20,
+  "top_k": 5,
+  "namespace": "cms1450-demo",
+  "models": {
+    "embedding": "hash-word-384-v1",
+    "reranker": "lexical"
+  },
+  "versions": {
+    "langgraph": "0.4.5",
+    "langchain-core": "0.3.59",
+    "langchain-pinecone": "0.2.6",
+    "tiktoken": "0.9.0",
+    "numpy": "2.2.5"
+  },
+  "claim_snapshots": [
+    {
+      "id": "459ef5bac34046209726978482cef1b5",
+      "revision": 1,
+      "sha256": "24a871723c7dfb7f06633db96bd0148149dec53c7e347247b586bb956d7c3fc1"
+    },
+    {
+      "id": "4537bfc63f1e4ee48965cbefb19db11e",
+      "revision": 1,
+      "sha256": "d0899adbae0d4180d992a86be5ce153a89ad677c3b735ff9fa55a656ea7d26fe"
+    },
+    {
+      "id": "a62f203ccc5f4a38a6f23553d8f6fc4e",
+      "revision": 1,
+      "sha256": "66f9e03cd2a3218964be302db3e40d8b41a986df46cfc65b78da020dfd8e0a46"
+    },
+    {
+      "id": "69e9e9c3ef804528bac62b3202099664",
+      "revision": 1,
+      "sha256": "25ec1c26115bfefcfd843bb514a5355c706a246f379f2e3d41681dc2cf6ba526"
+    },
+    {
+      "id": "90f57301e32143c5ac6bf59d53fd0758",
+      "revision": 1,
+      "sha256": "b223a115f04d21adf5414c6e6e36d02aa99e92c086745246c8e511c2de176a90"
+    },
+    {
+      "id": "9d0391f5e9c14752b0f7cc4a285be4ea",
+      "revision": 1,
+      "sha256": "0fe5de71a5e671cc29144e48114b228f706f65c7a7e62838ea612f8373e69844"
+    },
+    {
+      "id": "cf62760933db42b4bfcab14a6e96ed13",
+      "revision": 1,
+      "sha256": "71a1fe991841dc2fd3dd59f7bf771b2e29c8ebecc7029d6d0e5b97796205b1d8"
+    },
+    {
+      "id": "db297acf4b5b4c029aedcdee2b4e1fd3",
+      "revision": 1,
+      "sha256": "27c5cf17f91d47d50539e9713a80b6235164934a64cd137c2bee1171f65c9f37"
+    },
+    {
+      "id": "b0e75c11e8544578b88ac5fa5f54c792",
+      "revision": 1,
+      "sha256": "6c911a057e8ac3902d376734a846c056b6cbe71046fa04f64e61b97563a34ea7"
+    }
+  ],
+  "label_review": "template-authored, provisional"
+}

@@ -1,0 +1,13 @@
+{
+  "id": 3,
+  "name": "DEMO-0004",
+  "variant": "Faint scan",
+  "patient": "Taylor Brooks",
+  "sha256": "be8999bd5b2846ac631fb2f661297aa15b78935f2f4341aa545916da2b4d7518",
+  "filename": "sample-3-be8999bd5b2846ac.pdf",
+  "field_count": 123,
+  "page_count": 1,
+  "coordinate_units": "normalized original page; rotation applied by viewer",
+  "extraction": "curated simulation",
+  "layout": "original synthetic, not for billing"
+}

@@ -1,0 +1,1 @@
+"""Evidence-preserving retrieval components."""

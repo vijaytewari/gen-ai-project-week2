@@ -1,0 +1,29 @@
+.experiment-note { display: flex; align-items: center; gap: 15px; padding: 23px; border: 1px solid #dce6d6; background: #eef4e9; border-radius: 8px; }
+.experiment-note > svg { flex-shrink: 0; color: #7fa266; }
+.experiment-note strong { font-size: 12px; font-weight: 550; color: #658052; }
+.experiment-note p { font-size: 10px; color: #91a180; margin: 5px 0 0; }
+.experiment-note > .pill { font-size: 8px; margin-left: auto; }
+.report-empty { text-align: center; padding: 100px 20px; color: #a2b394; }
+.report-empty h2 { margin-top: 20px; font-size: 22px; color: #718766; }
+.report-empty p { font-size: 12px; line-height: 1.8; }
+.report-meta { display: flex; justify-content: space-between; margin: 35px 0 15px; color: #9bad8f; font-size: 9px; }
+.metric-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+.metric-card { background: white; padding: 21px 17px; border: 1px solid #e0e8d9; border-radius: 8px; }
+.metric-card .eyebrow { font-size: 8px; letter-spacing: 1px; }
+.rerank-label { display: block; color: #9cae8d; font-size: 10px; margin: 6px 0 25px; }
+.metric-card > strong { font-size: 40px; letter-spacing: -2px; font-weight: 450; color: #5b8243; }
+.metric-card > strong > small { font-size: 21px; margin-left: 3px; }
+.metric-card > span:last-of-type { display: block; font-size: 10px; color: #9cab90; }
+.metric-track { height: 4px; background: #eef2e9; border-radius: 3px; margin: 18px 0 25px; overflow: hidden; }
+.metric-track > span { display: block; background: #9dbd82; height: 100%; }
+.metric-card dl { margin-bottom: 0; }
+.metric-card dl > div { display: flex; justify-content: space-between; margin-top: 9px; font-size: 9px; }
+.metric-card dt { color: #a0af94; }
+.metric-card dd { margin: 0; color: #6f8960; }
+.report-downloads { display: flex; gap: 12px; margin: 24px 0; }
+.report-downloads a { display: flex; align-items: center; justify-content: space-between; gap: 20px; background: white; padding: 16px; border: 1px solid var(--border); border-radius: 6px; flex: 1; font-size: 9px; color: #7f956c; }
+@media (max-width: 1100px) { .metric-grid { grid-template-columns: repeat(2, 1fr); } .experiment-note > .pill { display: none; } }
+@media (max-width: 800px) {
+  .metric-grid { grid-template-columns: 1fr; } .report-meta { display: grid; gap: 10px; }
+  .report-downloads { flex-direction: column; }
+}

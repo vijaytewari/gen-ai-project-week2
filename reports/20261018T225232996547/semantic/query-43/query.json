@@ -1,0 +1,15 @@
+{
+  "id": "case-11-q3",
+  "case": 11,
+  "query": "What are the admission date and discharge status?",
+  "gold": [
+    "12",
+    "17"
+  ],
+  "expected": {
+    "12": "2026-09-10",
+    "17": "01"
+  },
+  "split": "heldout",
+  "category": "coverage-or-clinical"
+}

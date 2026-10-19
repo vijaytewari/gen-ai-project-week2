@@ -1,0 +1,12 @@
+.venv/
+.runtime/
+.uv-cache/
+node_modules/
+frontend/dist/
+data/
+__pycache__/
+.pytest_cache/
+.env
+*.tsbuildinfo
+test-results/
+frontend/test-results/

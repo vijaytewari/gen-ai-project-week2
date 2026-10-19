@@ -1,0 +1,48 @@
+.upload-card {
+  min-height: 270px; position: relative; display: flex; align-items: center; gap: 46px;
+  padding: 34px 42px; border-radius: 11px; overflow: hidden;
+  background: linear-gradient(110deg, #edf2e8, #f0f4ed 55%, #e9f0e8);
+  border: 1px solid #d9e4d7;
+}
+.upload-card::after {
+  content: ''; position: absolute; width: 300px; height: 300px; right: -150px; top: -130px;
+  border: 1px solid #dce6d9; border-radius: 50%; box-shadow: 0 0 0 42px #e5ede266, 0 0 0 85px #dce6d922;
+  pointer-events: none;
+}
+.upload-card.dragging { border-color: #1c947a; background: #e2f0e5; }
+.upload-illustration { position: relative; width: 145px; height: 170px; flex-shrink: 0; margin-left: 9px; }
+.paper-back {
+  position: absolute; left: 6px; top: 4px; width: 110px; height: 147px;
+  background: #dfe9d9; border: 1px solid #d0dfc9; border-radius: 6px; transform: rotate(-11deg);
+}
+.paper-front {
+  position: absolute; left: 20px; top: 10px; width: 112px; height: 149px;
+  padding: 15px 12px; background: #fcfdf8; border: 1px solid #d6e0cf;
+  border-radius: 6px; transform: rotate(6deg); box-shadow: 3px 8px 15px #758f6220;
+}
+.paper-front > span { display: block; height: 6px; width: 44px; background: #9db39a; margin-bottom: 14px; border-radius: 2px; }
+.paper-front i { display: block; width: 100%; height: 3px; margin-bottom: 8px; background: #dce6d5; }
+.paper-front i:nth-child(3) { width: 70%; }
+.paper-front > div { height: 28px; border: 1px solid #d9e4d2; margin-bottom: 10px; background: repeating-linear-gradient(0deg, transparent, transparent 8px, #d9e4d2 9px); }
+.scan-badge {
+  position: absolute; right: -8px; bottom: 3px; width: 45px; height: 45px;
+  border: 5px solid #e8efe3; border-radius: 50%; display: grid; place-items: center;
+  background: #2d7a64; color: #e2efda; box-shadow: 2px 5px 10px #71885c15;
+}
+.upload-copy { position: relative; z-index: 1; }
+.upload-copy .eyebrow { font-size: 8px; color: #8a9d7d; }
+.upload-copy h2 { font-size: 24px; margin: 8px 0 11px; color: #365847; }
+.upload-copy p { font-size: 11px; color: #8a9b81; line-height: 1.8; margin-bottom: 17px; }
+.upload-copy .primary { font-size: 11px; padding: 11px 16px; background: #276f59; border-color: #276f59; }
+.upload-copy small { display: block; font-size: 8px; color: #9ca88f; margin-top: 10px; }
+.upload-tag {
+  position: absolute; bottom: 20px; right: 21px; display: flex; align-items: center;
+  gap: 5px; font-size: 7px; color: #8da383; letter-spacing: 1px;
+}
+@media (max-width: 1100px) {
+  .upload-card { gap: 25px; padding: 28px; } .upload-tag { display: none; }
+}
+@media (max-width: 800px) {
+  .upload-card { padding: 28px 22px; } .upload-illustration { display: none; }
+  .upload-copy h2 { font-size: 22px; } .upload-copy br { display: none; }
+}

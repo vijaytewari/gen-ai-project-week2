@@ -1,0 +1,13 @@
+{
+  "id": 11,
+  "name": "DEMO-0012",
+  "variant": "Multipage services",
+  "patient": "Taylor Brooks",
+  "sha256": "4b6def273b27ce12de4f3b2b795db923bcdd8e55ad29b21ee3aa57a071dff104",
+  "filename": "sample-11-4b6def273b27ce12.pdf",
+  "field_count": 123,
+  "page_count": 2,
+  "coordinate_units": "normalized original page; rotation applied by viewer",
+  "extraction": "curated simulation",
+  "layout": "original synthetic, not for billing"
+}

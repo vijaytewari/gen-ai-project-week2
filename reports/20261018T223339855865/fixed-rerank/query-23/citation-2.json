@@ -1,0 +1,16 @@
+{
+  "field_id": "67.principal",
+  "label": "Principal / other diagnoses \u00b7 principal",
+  "value": "DEMO-DX",
+  "group": "clinical",
+  "evidence": {
+    "page": 0,
+    "box": [
+      0.06470588235294118,
+      0.7545454545454545,
+      0.8352941176470589,
+      0.01818181818181818
+    ]
+  },
+  "source": "curated"
+}

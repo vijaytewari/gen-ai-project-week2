@@ -1,0 +1,16 @@
+{
+  "field_id": "66",
+  "label": "Diagnosis qualifier",
+  "value": "0",
+  "group": "clinical",
+  "evidence": {
+    "page": 0,
+    "box": [
+      0.023529411764705882,
+      0.7545454545454545,
+      0.041176470588235294,
+      0.03636363636363636
+    ]
+  },
+  "source": "curated"
+}

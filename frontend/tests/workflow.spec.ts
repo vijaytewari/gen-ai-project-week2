@@ -1,0 +1,50 @@
+import { test, expect } from '@playwright/test';
+import { openSynthetic } from './synthetic';
+
+test('library, source, correction, lookup, and measured reports', async ({ page }) => {
+  const errors: string[] = [];
+  page.on('pageerror', error => errors.push(error.message));
+  await page.goto('/');
+  await expect(page.getByRole('heading', { name: 'Review by HITL' })).toBeVisible();
+  await expect(page.getByRole('button', { name: /DEMO-0001/ })).not.toBeVisible();
+  await page.screenshot({ path: '../.runtime/screenshots/library.png', fullPage: true });
+  await openSynthetic(page);
+  await expect(page.getByText('STRUCTURED FIELDS')).toBeVisible();
+  await expect(page.locator('canvas')).toBeVisible();
+  const divider = page.getByRole('separator');
+  await divider.focus();
+  await page.keyboard.press('ArrowRight');
+  await expect(divider).toHaveAttribute('aria-valuenow', '52');
+  await expect.poll(() => page.locator('canvas').evaluate(el => (el as HTMLCanvasElement).width)).toBeGreaterThan(0);
+  await page.locator('[id="value-1"]').fill('DEMO Updated Medical Center');
+  await page.getByRole('button', { name: 'Save changes' }).click();
+  await expect(page.getByRole('button', { name: 'Saved', exact: true })).toBeVisible();
+  await page.reload();
+  await page.getByRole('button', { name: 'Claim workspace' }).click();
+  await expect(page.locator('[id="value-1"]')).toHaveValue('DEMO Updated Medical Center');
+  await page.getByRole('button', { name: 'Index current draft' }).click();
+  await expect(page.getByRole('button', { name: 'Reindex revision' })).toBeVisible({ timeout: 45000 });
+  await page.getByRole('button', { name: 'Ask this claim' }).click();
+  await page.getByRole('button', { name: 'What is the patient name?' }).click();
+  await expect(page.getByText('EVIDENCE LOOKUP')).toBeVisible();
+  await expect(page.locator('.answer > p')).toContainText('Jordan Reed');
+  await page.locator('.answer-sources button').filter({ hasText: 'FL 8' }).click();
+  await expect(page.locator('[id="value-8"]')).toBeVisible();
+  await page.getByRole('button', { name: 'Close assistant' }).click();
+  await page.screenshot({ path: '../.runtime/screenshots/review.png', fullPage: true });
+  await page.getByRole('button', { name: 'Retrieval insights' }).click();
+  await expect(page.getByText('Evidence, measured.')).toBeVisible();
+  await page.screenshot({ path: '../.runtime/screenshots/reports.png', fullPage: true });
+  expect(errors).toEqual([]);
+});
+
+test('mobile navigation keeps the workspace usable', async ({ page }) => {
+  await page.setViewportSize({ width: 430, height: 932 });
+  await page.goto('/');
+  await expect(page.getByRole('heading', { name: 'Review by HITL' })).toBeVisible();
+  await openSynthetic(page, 1);
+  await expect(page.getByRole('button', { name: 'Editable fields' })).toBeVisible();
+  await page.getByRole('button', { name: 'Source document', exact: true }).click();
+  await expect(page.locator('canvas')).toBeVisible();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBeTruthy();
+});

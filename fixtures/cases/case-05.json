@@ -1,0 +1,13 @@
+{
+  "id": 5,
+  "name": "DEMO-0006",
+  "variant": "Multipage services",
+  "patient": "Avery Chen",
+  "sha256": "d191151ae639971234e7a906b25bc14ac4ba953a2dea1367bdb12fd863a58fbb",
+  "filename": "sample-5-d191151ae6399712.pdf",
+  "field_count": 123,
+  "page_count": 2,
+  "coordinate_units": "normalized original page; rotation applied by viewer",
+  "extraction": "curated simulation",
+  "layout": "original synthetic, not for billing"
+}

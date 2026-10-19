@@ -1,0 +1,16 @@
+{
+  "field_id": "8",
+  "label": "Patient name",
+  "value": "Jordan Reed",
+  "group": "patient",
+  "evidence": {
+    "page": 0,
+    "box": [
+      0.023529411764705882,
+      0.09545454545454546,
+      0.3411764705882353,
+      0.034545454545454546
+    ]
+  },
+  "source": "curated"
+}

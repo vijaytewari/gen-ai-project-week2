@@ -1,0 +1,13 @@
+{
+  "id": 1,
+  "name": "DEMO-0002",
+  "variant": "Handwriting-style",
+  "patient": "Avery Chen",
+  "sha256": "faa8a5e4bc3d493c36508f6df97711cabef14f849d997ed96e8de0d4d184888a",
+  "filename": "sample-1-faa8a5e4bc3d493c.pdf",
+  "field_count": 123,
+  "page_count": 1,
+  "coordinate_units": "normalized original page; rotation applied by viewer",
+  "extraction": "curated simulation",
+  "layout": "original synthetic, not for billing"
+}

@@ -1,0 +1,16 @@
+{
+  "field_id": "67.other1",
+  "label": "Principal / other diagnoses \u00b7 other1",
+  "value": "DEMO-SECONDARY",
+  "group": "clinical",
+  "evidence": {
+    "page": 0,
+    "box": [
+      0.06470588235294118,
+      0.7727272727272727,
+      0.8352941176470589,
+      0.01818181818181818
+    ]
+  },
+  "source": "curated"
+}

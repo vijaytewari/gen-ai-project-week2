@@ -1,0 +1,17 @@
+.saved-library { margin-top: 32px; }
+.saved-records { background: white; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+.saved-record { display: flex; flex-direction: column; gap: 16px; padding: 20px; }
+.saved-record + .saved-record { border-top: 1px solid var(--border); }
+.record-info { display: flex; align-items: flex-start; gap: 12px; min-width: 0; }
+.record-info > svg { color: #548b76; flex-shrink: 0; }
+.record-info > div { min-width: 0; }
+.record-info h3 { font-size: 15px; margin: 0 0 8px; overflow-wrap: anywhere; }
+.record-info p { font-size: 12px; margin: 0 0 6px; }
+.record-info small { color: #778573; font-size: 11px; overflow-wrap: anywhere; }
+.record-actions { display: flex; flex-wrap: wrap; gap: 8px; padding-left: 36px; }
+.record-actions button { font-size: 12px; }
+@media (max-width: 800px) {
+  .saved-record { padding: 15px; }
+  .record-actions { padding-left: 0; }
+  .page-heading { align-items: flex-start; flex-direction: column; gap: 12px; }
+}

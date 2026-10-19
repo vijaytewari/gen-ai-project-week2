@@ -1,0 +1,16 @@
+{
+  "field_id": "58.A",
+  "label": "Insured name \u00b7 A",
+  "value": "Jordan Reed",
+  "group": "coverage",
+  "evidence": {
+    "page": 0,
+    "box": [
+      0.023529411764705882,
+      0.6363636363636364,
+      0.2823529411764706,
+      0.01818181818181818
+    ]
+  },
+  "source": "curated"
+}

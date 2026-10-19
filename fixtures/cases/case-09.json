@@ -1,0 +1,13 @@
+{
+  "id": 9,
+  "name": "DEMO-0010",
+  "variant": "Faint scan",
+  "patient": "Avery Chen",
+  "sha256": "2d8522961ac0baf808b7822203c99ae5aa488412fafebfbb99d90df1321e943d",
+  "filename": "sample-9-2d8522961ac0baf8.pdf",
+  "field_count": 123,
+  "page_count": 1,
+  "coordinate_units": "normalized original page; rotation applied by viewer",
+  "extraction": "curated simulation",
+  "layout": "original synthetic, not for billing"
+}

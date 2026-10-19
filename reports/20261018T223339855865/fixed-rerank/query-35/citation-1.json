@@ -1,0 +1,16 @@
+{
+  "field_id": "61.A",
+  "label": "Group name \u00b7 A",
+  "value": "Demo group",
+  "group": "coverage",
+  "evidence": {
+    "page": 0,
+    "box": [
+      0.5882352941176471,
+      0.6363636363636364,
+      0.18823529411764706,
+      0.01818181818181818
+    ]
+  },
+  "source": "curated"
+}

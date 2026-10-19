@@ -1,0 +1,13 @@
+{
+  "id": "case-00-q2",
+  "case": 0,
+  "query": "What are the total charges?",
+  "gold": [
+    "47.total"
+  ],
+  "expected": {
+    "47.total": "1450.00"
+  },
+  "split": "development",
+  "category": "amount"
+}

@@ -1,0 +1,16 @@
+{
+  "field_id": "47.total",
+  "label": "Charges \u00b7 total",
+  "value": "2409.00",
+  "group": "services",
+  "evidence": {
+    "page": 0,
+    "box": [
+      0.7176470588235294,
+      0.5054545454545455,
+      0.12941176470588237,
+      0.02181818181818182
+    ]
+  },
+  "source": "curated"
+}

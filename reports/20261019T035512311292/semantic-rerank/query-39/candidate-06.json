@@ -1,0 +1,11 @@
+{
+  "chunk_id": "semantic-3",
+  "field_ids": [
+    "18",
+    "31.code",
+    "31.date"
+  ],
+  "score": 0.17364862842489184,
+  "initial_rank": 7,
+  "rerank_score": 0.0017364862842489184
+}

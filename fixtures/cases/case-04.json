@@ -1,0 +1,13 @@
+{
+  "id": 4,
+  "name": "DEMO-0005",
+  "variant": "Missing boundaries",
+  "patient": "Jordan Reed",
+  "sha256": "1dac8e2777a6891454e5a1f285ec8b8544b96eacffbd3eed4162ba8f5dda6ac3",
+  "filename": "sample-4-1dac8e2777a68914.pdf",
+  "field_count": 123,
+  "page_count": 1,
+  "coordinate_units": "normalized original page; rotation applied by viewer",
+  "extraction": "curated simulation",
+  "layout": "original synthetic, not for billing"
+}

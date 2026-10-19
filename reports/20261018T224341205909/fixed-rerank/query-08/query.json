@@ -1,0 +1,13 @@
+{
+  "id": "case-04-q3",
+  "case": 4,
+  "query": "What is the principal diagnosis?",
+  "gold": [
+    "67.principal"
+  ],
+  "expected": {
+    "67.principal": "DEMO-DX"
+  },
+  "split": "heldout",
+  "category": "coverage-or-clinical"
+}

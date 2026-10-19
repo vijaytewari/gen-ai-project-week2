@@ -1,0 +1,13 @@
+{
+  "id": "case-03-q3",
+  "case": 3,
+  "query": "What is the primary payer?",
+  "gold": [
+    "50.A"
+  ],
+  "expected": {
+    "50.A": "DEMO Primary Health"
+  },
+  "split": "heldout",
+  "category": "coverage-or-clinical"
+}

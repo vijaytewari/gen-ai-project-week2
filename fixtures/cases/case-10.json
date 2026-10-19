@@ -1,0 +1,13 @@
+{
+  "id": 10,
+  "name": "DEMO-0011",
+  "variant": "Missing boundaries",
+  "patient": "Morgan Ellis",
+  "sha256": "b9f2f5c913e0a333460ea18c0a9681656f70a49de702d91123acea8d5c2d3dd0",
+  "filename": "sample-10-b9f2f5c913e0a333.pdf",
+  "field_count": 123,
+  "page_count": 1,
+  "coordinate_units": "normalized original page; rotation applied by viewer",
+  "extraction": "curated simulation",
+  "layout": "original synthetic, not for billing"
+}

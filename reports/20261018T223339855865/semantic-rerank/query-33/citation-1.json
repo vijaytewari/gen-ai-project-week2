@@ -1,0 +1,16 @@
+{
+  "field_id": "50.B",
+  "label": "Payer \u00b7 B",
+  "value": "DEMO Supplemental",
+  "group": "coverage",
+  "evidence": {
+    "page": 0,
+    "box": [
+      0.023529411764705882,
+      0.5727272727272728,
+      0.27647058823529413,
+      0.02727272727272727
+    ]
+  },
+  "source": "curated"
+}

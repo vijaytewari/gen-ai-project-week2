@@ -1,0 +1,15 @@
+{
+  "id": "case-03-q1",
+  "case": 3,
+  "query": "What is the statement period?",
+  "gold": [
+    "6.from",
+    "6.through"
+  ],
+  "expected": {
+    "6.from": "2026-09-10",
+    "6.through": "2026-09-12"
+  },
+  "split": "heldout",
+  "category": "dates"
+}

@@ -1,0 +1,13 @@
+{
+  "id": 7,
+  "name": "DEMO-0008",
+  "variant": "Handwriting-style",
+  "patient": "Taylor Brooks",
+  "sha256": "0c9ff4fd0d43535e701d1cfeaf22767c7c2c08626b69f86171c2f979804f9538",
+  "filename": "sample-7-0c9ff4fd0d43535e.pdf",
+  "field_count": 123,
+  "page_count": 1,
+  "coordinate_units": "normalized original page; rotation applied by viewer",
+  "extraction": "curated simulation",
+  "layout": "original synthetic, not for billing"
+}

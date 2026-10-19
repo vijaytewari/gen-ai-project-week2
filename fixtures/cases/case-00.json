@@ -1,0 +1,13 @@
+{
+  "id": 0,
+  "name": "DEMO-0001",
+  "variant": "Clean print",
+  "patient": "Jordan Reed",
+  "sha256": "2a3109ebc0ce0c3f5486c3543193ec671858409559c9b13b20242d4d82ed8603",
+  "filename": "sample-0-2a3109ebc0ce0c3f.pdf",
+  "field_count": 123,
+  "page_count": 1,
+  "coordinate_units": "normalized original page; rotation applied by viewer",
+  "extraction": "curated simulation",
+  "layout": "original synthetic, not for billing"
+}

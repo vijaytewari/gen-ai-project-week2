@@ -1,0 +1,13 @@
+{
+  "id": 6,
+  "name": "DEMO-0007",
+  "variant": "Clean print",
+  "patient": "Morgan Ellis",
+  "sha256": "fdf77103cde8fd4095746b8c0754484260c7ebcc5cfe913851d66f0f7a373bc2",
+  "filename": "sample-6-fdf77103cde8fd40.pdf",
+  "field_count": 123,
+  "page_count": 1,
+  "coordinate_units": "normalized original page; rotation applied by viewer",
+  "extraction": "curated simulation",
+  "layout": "original synthetic, not for billing"
+}

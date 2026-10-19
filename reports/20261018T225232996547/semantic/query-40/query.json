@@ -1,0 +1,13 @@
+{
+  "id": "case-11-q0",
+  "case": 11,
+  "query": "What is the patient name?",
+  "gold": [
+    "8"
+  ],
+  "expected": {
+    "8": "Taylor Brooks"
+  },
+  "split": "heldout",
+  "category": "identity"
+}

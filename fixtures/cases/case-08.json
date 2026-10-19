@@ -1,0 +1,13 @@
+{
+  "id": 8,
+  "name": "DEMO-0009",
+  "variant": "Rotated scan",
+  "patient": "Jordan Reed",
+  "sha256": "2e78ccd8f1197156592cdf9032e5eef837a083eb7c2f60d5360f36df0dac8de1",
+  "filename": "sample-8-2e78ccd8f1197156.pdf",
+  "field_count": 123,
+  "page_count": 1,
+  "coordinate_units": "normalized original page; rotation applied by viewer",
+  "extraction": "curated simulation",
+  "layout": "original synthetic, not for billing"
+}

@@ -1,0 +1,16 @@
+{
+  "field_id": "12",
+  "label": "Admission date",
+  "value": "2026-09-10",
+  "group": "admission",
+  "evidence": {
+    "page": 0,
+    "box": [
+      0.17411764705882352,
+      0.13,
+      0.1,
+      0.031818181818181815
+    ]
+  },
+  "source": "curated"
+}

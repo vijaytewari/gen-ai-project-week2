@@ -1,0 +1,72 @@
+{
+  "run_id": "20261018T225232996547",
+  "cold_start_seconds": 33.93009170005098,
+  "seed": 2026,
+  "chunk_tokens": 400,
+  "overlap_tokens": 60,
+  "candidates": 20,
+  "top_k": 5,
+  "namespace": "cms1450-demo",
+  "models": {
+    "embedding": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "reranker": "cross-encoder",
+    "reranker_revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a"
+  },
+  "candidate_reuse": true,
+  "versions": {
+    "langgraph": "0.4.5",
+    "langchain-core": "0.3.59",
+    "langchain-pinecone": "0.2.6",
+    "tiktoken": "0.9.0",
+    "numpy": "2.2.5"
+  },
+  "claim_snapshots": [
+    {
+      "id": "18d55cefb72d4e61a18216ef8916cdcf",
+      "revision": 1,
+      "sha256": "be8999bd5b2846ac631fb2f661297aa15b78935f2f4341aa545916da2b4d7518"
+    },
+    {
+      "id": "97e6265288f746589786110ba1777617",
+      "revision": 1,
+      "sha256": "1dac8e2777a6891454e5a1f285ec8b8544b96eacffbd3eed4162ba8f5dda6ac3"
+    },
+    {
+      "id": "b822caf3dea346ecbf0c2486ebb25115",
+      "revision": 1,
+      "sha256": "d191151ae639971234e7a906b25bc14ac4ba953a2dea1367bdb12fd863a58fbb"
+    },
+    {
+      "id": "bd972514ca324239a1f7814d4f00fe4a",
+      "revision": 1,
+      "sha256": "fdf77103cde8fd4095746b8c0754484260c7ebcc5cfe913851d66f0f7a373bc2"
+    },
+    {
+      "id": "c9f8fc6eb7f94c8f93c1a402293b818b",
+      "revision": 1,
+      "sha256": "0c9ff4fd0d43535e701d1cfeaf22767c7c2c08626b69f86171c2f979804f9538"
+    },
+    {
+      "id": "9e72988c32004a0a95569b00de7e6b7c",
+      "revision": 1,
+      "sha256": "2e78ccd8f1197156592cdf9032e5eef837a083eb7c2f60d5360f36df0dac8de1"
+    },
+    {
+      "id": "27705b69a8f94611940cd45434e2fdb2",
+      "revision": 1,
+      "sha256": "2d8522961ac0baf808b7822203c99ae5aa488412fafebfbb99d90df1321e943d"
+    },
+    {
+      "id": "bb17b1f685c5410e971e437b5d554c17",
+      "revision": 1,
+      "sha256": "b9f2f5c913e0a333460ea18c0a9681656f70a49de702d91123acea8d5c2d3dd0"
+    },
+    {
+      "id": "5fba8a30a99f4db98c716940e78feb76",
+      "revision": 1,
+      "sha256": "4b6def273b27ce12de4f3b2b795db923bcdd8e55ad29b21ee3aa57a071dff104"
+    }
+  ],
+  "label_review": "template-authored, provisional"
+}

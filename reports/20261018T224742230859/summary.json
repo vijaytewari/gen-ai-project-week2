@@ -1,0 +1,70 @@
+{
+  "run_id": "20261018T224742230859",
+  "backend": "local",
+  "embedding": "sentence-transformers/all-MiniLM-L6-v2",
+  "reranker": "cross-encoder",
+  "query_count": 45,
+  "cases": 9,
+  "configs": [
+    {
+      "name": "fixed",
+      "strategy": "fixed",
+      "rerank": false,
+      "recall": 1.0,
+      "mrr": 0.6944444444444444,
+      "ndcg": 0.7744570716270018,
+      "recall_budget": 1.0,
+      "answer_accuracy": 1,
+      "latency_ms": 26.543973333254044,
+      "context_tokens": 1318.6666666666667,
+      "citation_support": 1,
+      "unsupported_rate": 0,
+      "abstention_accuracy": 1
+    },
+    {
+      "name": "fixed-rerank",
+      "strategy": "fixed",
+      "rerank": true,
+      "recall": 1.0,
+      "mrr": 1.0,
+      "ndcg": 1.0,
+      "recall_budget": 1.0,
+      "answer_accuracy": 1,
+      "latency_ms": 760.5339511077748,
+      "context_tokens": 1318.6666666666667,
+      "citation_support": 1,
+      "unsupported_rate": 0,
+      "abstention_accuracy": 1
+    },
+    {
+      "name": "semantic",
+      "strategy": "semantic",
+      "rerank": false,
+      "recall": 1.0,
+      "mrr": 0.875,
+      "ndcg": 0.9077324383928644,
+      "recall_budget": 1.0,
+      "answer_accuracy": 1,
+      "latency_ms": 34.12819778572561,
+      "context_tokens": 605.4666666666667,
+      "citation_support": 1,
+      "unsupported_rate": 0,
+      "abstention_accuracy": 1
+    },
+    {
+      "name": "semantic-rerank",
+      "strategy": "semantic",
+      "rerank": true,
+      "recall": 1.0,
+      "mrr": 1.0,
+      "ndcg": 1.0,
+      "recall_budget": 1.0,
+      "answer_accuracy": 1,
+      "latency_ms": 1382.6612333392,
+      "context_tokens": 782.4,
+      "citation_support": 1,
+      "unsupported_rate": 0,
+      "abstention_accuracy": 1
+    }
+  ]
+}

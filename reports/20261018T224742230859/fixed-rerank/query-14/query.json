@@ -1,0 +1,9 @@
+{
+  "id": "case-05-q4",
+  "case": 5,
+  "query": "What is the patient's bank account number?",
+  "gold": [],
+  "expected": {},
+  "split": "heldout",
+  "category": "unanswerable"
+}

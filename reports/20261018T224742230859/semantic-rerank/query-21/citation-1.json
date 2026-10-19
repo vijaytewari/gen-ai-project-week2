@@ -1,0 +1,16 @@
+{
+  "field_id": "6.through",
+  "label": "Statement period \u00b7 through",
+  "value": "2026-09-12",
+  "group": "admission",
+  "evidence": {
+    "page": 0,
+    "box": [
+      0.7352941176470589,
+      0.08181818181818182,
+      0.19411764705882353,
+      0.013636363636363636
+    ]
+  },
+  "source": "curated"
+}
